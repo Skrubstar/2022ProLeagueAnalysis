@@ -47,9 +47,11 @@ team. Looking at both Mean and Median shows that the previous charts where not a
 where Mid outclasses ADC is in assists, however this can be explianed by the greater kill volume as a player cannot obtain a kill and assist from the same elimination. 
 
 ### Mean
+
 | position   |   kills |   deaths |   assists |   teamkills |     dpm |    cspm |   adjusted_deaths |     kda |   proportion_kills |\n|:-----------|--------:|---------:|----------:|------------:|--------:|--------:|------------------:|--------:|-------------------:|\n| bot        | 4.2588  |  2.54763 |   5.37153 |     14.4853 | 560.685 | 8.80589 |           2.68394 | 4.14882 |           0.284844 |\n| mid        | 3.50145 |  2.65614 |   5.89317 |     14.4853 | 545.908 | 8.28479 |           2.78008 | 3.7535  |           0.240355 |
 
 ### Median
+
 | position   |   kills |   deaths |   assists |   teamkills |     dpm |   cspm |   adjusted_deaths |   kda |   proportion_kills |\n|:-----------|--------:|---------:|----------:|------------:|--------:|-------:|------------------:|------:|-------------------:|\n| bot        |       4 |        2 |         5 |          14 | 531.121 | 8.9888 |                 2 |  2.75 |           0.277778 |\n| mid        |       3 |        2 |         5 |          14 | 518.949 | 8.2966 |                 2 |  2.5  |           0.227273 |
 
 ## Assessment of Missingness 
