@@ -18,6 +18,7 @@ purposes of calculating KDA. A similar process is undertaken for the proprotion 
 ohwever the case wherethe team overall doesn't get a kill, that player's proportion is also treated as a zero.
 
 |    | position   |   kills |   deaths |   assists |   teamkills |     dpm |    cspm |   adjusted_deaths |   kda |   proportion_kills |\n|---:|:-----------|--------:|---------:|----------:|------------:|--------:|--------:|------------------:|------:|-------------------:|\n|  2 | mid        |       2 |        2 |         3 |           9 | 499.405 |  6.7601 |                 2 |  1.75 |           0.222222 |\n|  3 | bot        |       2 |        4 |         2 |           9 | 389.002 |  7.9159 |                 4 |  0.75 |           0.222222 |\n|  7 | mid        |       6 |        3 |        12 |          19 | 724.693 |  7.5657 |                 3 |  4    |           0.315789 |\n|  8 | bot        |       8 |        2 |        10 |          19 | 934.746 | 11.1734 |                 2 |  6.5  |           0.421053 |\n| 14 | mid        |       2 |        4 |         0 |           3 | 655.118 | 10.5298 |                 4 |  0.5  |           0.666667 |
+
 ### Exploration of Role Statistics
 One area of interest is the comparison between the KDA between the two roles. A probability histogram between the two roles shows that the ADC is more likely to have a higher
 KDA, as demonstrated by the blue bars representing Mid being taller when KDA is lower, and smaller when kda is higher. 
@@ -45,8 +46,10 @@ This trend also continues when looking at the aggregate statistics. Here, teamwi
 team. Looking at both Mean and Median shows that the previous charts where not a fluke, as ADC averages greater kills, DPM< CSPM, KDA, and Proportion of Teamwide kills. One area
 where Mid outclasses ADC is in assists, however this can be explianed by the greater kill volume as a player cannot obtain a kill and assist from the same elimination. 
 
+### Mean
 | position   |   kills |   deaths |   assists |   teamkills |     dpm |    cspm |   adjusted_deaths |     kda |   proportion_kills |\n|:-----------|--------:|---------:|----------:|------------:|--------:|--------:|------------------:|--------:|-------------------:|\n| bot        | 4.2588  |  2.54763 |   5.37153 |     14.4853 | 560.685 | 8.80589 |           2.68394 | 4.14882 |           0.284844 |\n| mid        | 3.50145 |  2.65614 |   5.89317 |     14.4853 | 545.908 | 8.28479 |           2.78008 | 3.7535  |           0.240355 |
 
+### Median
 | position   |   kills |   deaths |   assists |   teamkills |     dpm |   cspm |   adjusted_deaths |   kda |   proportion_kills |\n|:-----------|--------:|---------:|----------:|------------:|--------:|-------:|------------------:|------:|-------------------:|\n| bot        |       4 |        2 |         5 |          14 | 531.121 | 8.9888 |                 2 |  2.75 |           0.277778 |\n| mid        |       3 |        2 |         5 |          14 | 518.949 | 8.2966 |                 2 |  2.5  |           0.227273 |
 
 ## Assessment of Missingness 
