@@ -80,4 +80,4 @@ used a significance value of 0.05. I conducted a another permutation test, and r
 permutations suggests that the difference in KDA observed between Bot and Mid lane was extremely unlikely to come from random chance, as the graph below also demonstrates. This suggests that
 ADC performs better than Mid lane when using KDA as the metric for observing what counts as a "Carry"
 
-<iframe src="assets/hyp.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/hypoth.html" width=800 height=600 frameBorder=0></iframe>
